@@ -13,7 +13,6 @@ public abstract class Car {
     public Car(int price,
                String make,
                String model,
-               String engineType,
                String colour,
                Gearbox gearbox,
                Tyre tyre,
@@ -21,7 +20,6 @@ public abstract class Car {
         this.price = price;
         this.make = make;
         this.model = model;
-        this.engineType = engineType;
         this.colour = colour;
         this.gearbox = gearbox;
         this.tyre = tyre;
@@ -38,10 +36,6 @@ public abstract class Car {
 
     public String getModel() {
         return model;
-    }
-
-    public String getEngineType() {
-        return engineType;
     }
 
     public String getColour() {
