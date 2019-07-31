@@ -17,4 +17,9 @@ public class TyreTest {
     public void tyreHasMake() {
         assertEquals("Michelin", tyre.getMake());
     }
+
+    @Test
+    public void tyreHasModel () {
+        assertEquals("XYZ-100", tyre.getModel());
+    }
 }
