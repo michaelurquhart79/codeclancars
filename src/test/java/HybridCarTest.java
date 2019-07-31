@@ -67,5 +67,10 @@ public class HybridCarTest {
         assertEquals("I have dirty dirty fossil fuels spawned in the North Sea by Mike", hybridCar.fuel());
     }
 
+    @Test
+    public void start() {
+        assertEquals("Broom Broom!", hybridCar.start());
+    }
+
 
 }
