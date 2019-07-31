@@ -2,7 +2,6 @@ package cars;
 
 public class HybridCar extends Car {
 
-    private String type;
 
     public HybridCar(int price, String make, String model, String colour, Gearbox gearbox, Tyre tyre, Engine engine) {
         super(price, make, model, colour, gearbox, tyre, engine);
@@ -10,7 +9,4 @@ public class HybridCar extends Car {
         this.type = "hybrid";
     }
 
-    public String getType() {
-        return type;
-    }
 }

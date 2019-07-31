@@ -57,5 +57,10 @@ public class HybridCarTest {
         assertEquals(gearbox, hybridCar.getGearbox());
     }
 
+    @Test
+    public void hasType() {
+        assertEquals("hybrid", hybridCar.getType());
+    }
+
 
 }

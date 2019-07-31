@@ -4,11 +4,12 @@ public abstract class Car {
     private int price;
     private String make;
     private String model;
-    private String engineType;
+//    private String engineType;
     private String colour;
     private Gearbox gearbox;
     private Tyre tyre;
     private Engine engine;
+    protected String type;
 
     public Car(int price,
                String make,
@@ -52,5 +53,9 @@ public abstract class Car {
 
     public Engine getEngine() {
         return engine;
+    }
+
+    public String getType() {
+        return type;
     }
 }
