@@ -22,7 +22,7 @@ public class TyreTest {
     public void tyreHasModel () {
         assertEquals("XYZ-100", tyre.getModel());
     }
-    
+
     @Test
     public void tyreHasType () {
         assertEquals("budget", tyre.getType());
