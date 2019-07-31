@@ -51,6 +51,11 @@ public class ElectricCarTest {
     }
 
     @Test
+    public void canCharge() {
+        assertEquals("I am charged", electricCar.charge());
+    }
+
+    @Test
     public void hasGearBox(){
         assertEquals(gearbox, electricCar.getGearbox());
     }

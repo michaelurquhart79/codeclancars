@@ -62,5 +62,10 @@ public class HybridCarTest {
         assertEquals("hybrid", hybridCar.getType());
     }
 
+    @Test
+    public void canFuel() {
+        assertEquals("I have dirty dirty fossil fuels spawned in the North Sea by Mike", hybridCar.fuel());
+    }
+
 
 }
